@@ -1,0 +1,77 @@
+/* Font */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+.hea-title-ber {
+    display: flex;
+    background-color: #E554731A;
+    justify-content: space-between;
+    width: 1440px;
+    height: 638px;
+    padding-left: 150px;
+    padding-top: 75px;
+}
+
+.title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.pera {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pry {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.head-img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 150px;
+    padding-left: 75px;
+}
+
+/* main */
+
+.Our-Flowers {
+    text-align: center;
+    padding: 130px 0px 0px 0px;
+}
+
+.Fl-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Fl-dis {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.img{
+    align-items: center;
+}
+
+.flowers {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
