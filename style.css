@@ -67,11 +67,39 @@ body {
     padding-bottom: 50px;
 }
 
-.img{
+.img {
     align-items: center;
+    justify-content: space-between;
+    gap: 24px;
 }
 
-.flowers {
+.flower1,
+.flower2,
+.flower3 {
     border-radius: 300px 300px 0px 0px;
+    width: 348px;
+    height: 404px;
+}
+
+.flower1 {
     background: rgba(167, 33, 98, 0.15);
+    margin-left: 240px;
+    margin-right: 20px;
+}
+
+.flower2 {
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 24px;
+}
+
+.flower3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.lin-k{
+    color: #272727;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 20px;
 }
