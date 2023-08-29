@@ -107,9 +107,102 @@ body {
 .icon-menu {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px;
+    padding: 86px 230px;
 }
 
 .mini-icon {
-    margin: 128px;
-    justify-content: space-between;
+    gap: 325px;
+}
+
+.icontitle {
+    display: flex;
+    gap: 100px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-weight: 600;
+}
+
+/* hot sall */
+
+.hot-sell {
+    background-color: #E554730D;
+    display: flex;
+    padding-top: 230px;
+    padding-left: 200px;
+    padding-right: 215px;
+    padding-bottom: 50px;
+}
+
+.title-t {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title-sp {
+    color: #E55473;
+}
+
+.title-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.title-bt {
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* instagram */
+
+.in-t {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+}
+
+.in-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.insta-im {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 125px;
+    gap: 40px;
+}
+
+/* sub */
+
+.sec-title {
+    background: url(../Photos/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+}
+
+.sub {
+    text-align: center;
+}
+
+.fo-bt {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
