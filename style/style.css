@@ -1,208 +1,217 @@
 /* Font */
 body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* header */
 
 .hea-title-ber {
-    display: flex;
-    background-color: #E554731A;
-    justify-content: space-between;
-    width: 1440px;
-    height: 638px;
-    padding-left: 150px;
-    padding-top: 75px;
+  display: flex;
+  background-color: #e554731a;
+  justify-content: space-between;
+  width: 1440px;
+  height: 638px;
+  padding-left: 150px;
+  padding-top: 75px;
 }
 
 .title {
-    color: #272727;
-    font-size: 60px;
-    font-weight: 600;
+  color: #272727;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .pera {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .pry {
-    border-radius: 8px;
-    background: #E55473;
-    border: none;
-    padding: 20px 43px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .head-img {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 150px;
-    padding-left: 75px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 150px;
+  padding-left: 75px;
 }
 
 /* main */
 
 .Our-Flowers {
-    text-align: center;
-    padding: 130px 0px 0px 0px;
+  text-align: center;
+  padding: 130px 0px 0px 0px;
 }
 
 .Fl-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 .Fl-dis {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-    padding-bottom: 50px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 50px;
 }
 
 .img {
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .flower1,
 .flower2,
 .flower3 {
-    border-radius: 300px 300px 0px 0px;
-    width: 348px;
-    height: 404px;
+  border-radius: 300px 300px 0px 0px;
+  width: 348px;
+  height: 404px;
 }
 
 .flower1 {
-    background: rgba(167, 33, 98, 0.15);
-    margin-left: 240px;
-    margin-right: 20px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-left: 240px;
+  margin-right: 20px;
 }
 
 .flower2 {
-    background: rgba(5, 151, 160, 0.15);
-    margin-right: 24px;
+  background: rgba(5, 151, 160, 0.15);
+  margin-right: 24px;
 }
 
 .flower3 {
-    background: rgba(71, 125, 17, 0.15);
+  background: rgba(71, 125, 17, 0.15);
 }
 
 .lin-k {
-    color: #272727;
-    justify-content: space-between;
-    text-align: center;
-    margin-left: 240px;
-    margin-right: 20px;
+  color: #272727;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 240px;
+  margin-right: 20px;
 }
-
-.icon-menu {
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    margin: 128px 240px;
-    padding: 86px 230px;
+.g-div {
+  background: #f4f4f4;
+  margin: 5% 10%;
+  border: black 1px solid;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgb(145, 144, 144);
+}
+.p-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .mini-icon {
-    gap: 325px;
+  gap: 325px;
 }
 
 .icontitle {
-    display: flex;
-    gap: 100px;
-    color: rgba(39, 39, 39, 0.80);
-    text-align: center;
-    font-weight: 600;
+  display: flex;
+  gap: 100px;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-weight: 600;
 }
 
 /* hot sall */
 
 .hot-sell {
-    background-color: #E554730D;
-    display: flex;
-    padding-top: 230px;
-    padding-left: 200px;
-    padding-right: 215px;
-    padding-bottom: 50px;
+  background-color: #e554730d;
+  display: flex;
+  padding-top: 230px;
+  padding-left: 200px;
+  padding-right: 215px;
+  padding-bottom: 50px;
 }
 
 .title-t {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 .title-sp {
-    color: #E55473;
+  color: #e55473;
 }
 
 .title-p {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: left;
-    font-size: 18px;
-    font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .title-bt {
-    padding: 20px 43px;
-    border: none;
-    border-radius: 8px;
-    background: #E55473;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
+  padding: 20px 43px;
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* instagram */
 
 .in-t {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-top: 128px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 128px;
 }
 
 .in-p {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 24px;
-    margin-bottom: 48px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 
 .insta-im {
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 125px;
-    gap: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 125px;
+  gap: 40px;
 }
 
 /* sub */
-
-.sec-title {
-    background: url(../Photos/Rectangle\ 9.png);
-    width: 1440px;
-    height: 449px;
+.g-sub {
+  background: url(../Photos/Rectangle\ 9.png);
+  margin: 5% 10%;
+  border: black 1px solid;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgb(145, 144, 144);
 }
-
-.sub {
-    text-align: center;
-}
-
-.fo-bt {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.f-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
 }
